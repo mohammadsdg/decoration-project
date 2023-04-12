@@ -1,0 +1,241 @@
+@font-face {
+    font-family: 'roboto-black';
+    src: url(/fonts/Roboto-Black.ttf);
+}
+
+@font-face {
+    font-family: 'roboto-bold';
+    src: url(/fonts/Roboto-Bold.ttf);
+}
+
+@font-face {
+    font-family: 'roboto-light';
+    src: url(/fonts/Roboto-Light.ttf);
+}
+
+@font-face {
+    font-family: 'roboto-medium';
+    src: url(/fonts/Roboto-Medium.ttf);
+}
+
+@font-face {
+    font-family: 'roboto-regular';
+    src: url(/fonts/Roboto-Regular.ttf);
+}
+
+body {
+    font-family: roboto;
+    box-sizing: border-box;
+}
+
+.container {
+    width: 1200px;
+    margin: 0 auto;
+}
+
+.header {
+    background-color: #f1f1f1;
+    height: fit-content;
+    width: 100%;
+    padding-top: 1rem;
+    z-index: 2;
+    overflow: hidden;
+}
+
+/* head-top */
+.header-top-wrapper {
+    display: flex;
+    justify-content: space-between;
+    width: 94%;
+    margin: 0 auto;
+}
+
+.site-logo-parent {
+    height: fit-content;
+    width: 200px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.site-logo {
+    width: 80%;
+    height: 47px;
+}
+
+.header-logos-menu {
+    display: flex;
+    width: 100%;
+    justify-content: space-evenly;
+    align-items: center;
+    padding: 0;
+}
+
+.header-logos-menu-items {
+    list-style-type: none;
+    font-size: 1.4rem;
+    font-weight: 100;
+    padding-right: 1rem;
+}
+
+.header-logos-menu-items:nth-child(3) {
+    padding-right: 0;
+}
+
+.header-logos-menu-items a {
+    text-decoration: none;
+    color: inherit;
+}
+
+.header-bottom-wrapper {
+    display: flex;
+    justify-content: space-between;
+    width: 85%;
+    height: 76%;
+    margin: 0 auto;
+    align-items: flex-start;
+}
+
+/* head-bottom-left */
+.new-arrivals-span {
+    text-transform: uppercase;
+    font-family: open sans;
+    color: #242424;
+    padding: 3rem 0 0.5rem 0;
+    letter-spacing: 4px;
+    opacity: 0.3;
+}
+
+.header-bottom-left-title {
+    display: inline-block;
+    font-size: 2.3rem;
+    font-family: Roboto;
+    font-weight: 900;
+    line-height: 2.7rem;
+    margin: 0;
+    padding: 1.5rem 0 1rem 0;
+}
+
+.header-bottom-left-title-dot {
+    font-size: 4rem;
+    color: #EB7025;
+}
+
+.header-bottom-left-simple-line {
+    height: 2px;
+    width: 8rem;
+    position: absolute;
+    background-color: #cccccc;
+    border: 0;
+    outline: 0;
+    opacity: 0.5;
+    margin: 1rem 0 1rem 0;
+}
+
+.header-bottom-left-p {
+    display: block;
+    font-family: vazir;
+    color: #8d8c8c;
+    margin: 2rem 0 0 0;
+    padding: 1.5rem 0 1.5rem 0;
+}
+
+.header-bottom-left-price {
+    color: #000000;
+    text-transform: uppercase;
+    font-family: vazir;
+    font-size: 2rem;
+    font-weight: 100;
+    padding: 1.5rem 0 1.5rem 0;
+}
+
+.header-bottom-left-price-price {
+    color: #EB7025;
+    padding: 1.5rem 0 1.5rem 0;
+
+}
+
+.header-bottom-left-btn {
+    border: 2px solid #707070;
+    outline: 0;
+    background-color: inherit;
+    padding: 0.7rem 1rem 0.7rem 1rem;
+    width: 8rem;
+    font-size: 0.8rem;
+    text-transform: uppercase;
+    color: #000000;
+    transition: 0.4s;
+    cursor: pointer;
+    text-align: center;
+    margin: 1.5rem 0 1.5rem 0;
+}
+
+.header-bottom-left-btn:hover {
+    background-color: #222222;
+    color: #ffffff;
+}
+
+.header-bottom-social-media-div {
+    width: 100%;
+    display: flex;
+    padding: 2rem 0 0 0.4rem;
+}
+
+.header-bottom-social-media-menu {
+    display: flex;
+    justify-content: flex-start;
+    padding: 0;
+    width: 80%;
+    align-items: center;
+}
+
+.header-bottom-social-media-menu-items {
+    list-style-type: none;
+    font-family: vazir;
+    padding-right: 2rem;
+    font-size: 14px;
+}
+
+.header-bottom-social-media-menu-items a:hover {
+    color: #EB7025;
+}
+
+.header-bottom-social-media-menu-items:nth-child(4) {
+    padding-right: 0;
+}
+
+.header-bottom-social-media-menu-items a {
+    text-decoration: none;
+    color: #333;
+    transition: 0.4s;
+}
+
+.header-bottom-left-wrapper {
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: space-around;
+}
+
+/* head-bottom-right */
+.header-bottom-right-img {
+    width: 500px;
+    height: 500px;
+    z-index: 1;
+    position: relative;
+}
+
+.header-bottom-right-img-background {
+    background-color: #FFCEB8;
+    width: 26rem;
+    height: 564px;
+    position: absolute;
+    top: 0;
+    left: 45rem;
+}
+
+.header-logos {
+    z-index: 1;
+    padding-right: 4rem;
+}
